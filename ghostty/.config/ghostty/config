@@ -55,7 +55,7 @@ font-size = 16
 window-padding-x = 10
 window-padding-y = 10
 cursor-style = block
-window-height = 30
+window-height = 40
 window-width = 90
 
 # Add glass theme

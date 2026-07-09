@@ -1,5 +1,11 @@
 
 
+# Add MD Journal path from .zshrc_private
+if [ -f ~/.zshrc_private ]; then
+  . ~/.zshrc_private
+fi
+
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -41,8 +47,8 @@ unset __conda_setup
 # ====================== Oh My Zsh ======================
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-# ZSH_THEME="powerlevel10k/powerlevel10k"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="robbyrussell"
 zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Which plugins would you like to load?
